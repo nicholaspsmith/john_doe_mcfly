@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=News+Cycle:400,700|Kaushan+Script);
+
+/****** Header ******/
+.topmenu{
+	background-color: #f4f5f9;
+	padding-left: 110px;
+	padding-right: 110px;
+	width: 1070px;
+}
+
+#logo {
+	margin-top: 10px;
+	float: left;
+	height: 70px;
+}
+
+.navbar{
+	margin: 0;
+	padding: 0;
+	width: 600px;
+	float: right;
+
+}
+
+.navbar li {
+	list-style: none;
+	float: left;
+	background: #f4f5f9;
+	vertical-align: top;
+	padding: 30px 17px 35px 17px;
+}
+.navbar li:hover {
+	background: white;
+}
+
+.navbar li a{
+	text-decoration: none;
+	color: #555;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20px;
+}
+
+/*HIRE ME*/
+.navbar li:last-child{
+	background: #42abbc;
+	margin-left: 10px;
+	border-radius: 50%;
+
+
+
+
+	-webkit-transform: scale(.8,.8) rotate(-20deg);
+	-moz-transform: scale(.8,.8) rotate(-20deg);
+	transform: scale(.8,.8) rotate(-20deg);
+
+	-webkit-transition: -webkit-transform .5s;
+	transition: transform .5s;
+}
+
+.navbar li:last-child a{
+	color: white;
+	font-family: 'Kaushan Script', cursive;
+}
+
+/*Hire me button animation*/
+.navbar li:last-child:hover{
+	-webkit-transform: translate(3px,0px);
+	transform: translate(3px,0px);
+}
+
+
+
+/****** BODY ******/
+.body{
+	background: #4b539a;
+	height: 400px;
+	max-width: 1290px;
+}
+
+#nerd img{
+	height: 250px;
+	border: 3px solid;
+	border-radius: 50%;
+	color: #6970aa;
+}
+
+
+/******CLEARFIX******/
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
